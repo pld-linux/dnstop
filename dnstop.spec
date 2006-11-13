@@ -1,4 +1,5 @@
-Summary:	displays various tables of DNS traffic on your network
+Summary:	Display various tables of DNS traffic on your network
+Summary(pl):	Wy¶wietlanie ró¿nych zestawieñ ruchu DNS w sieci
 Name:		dnstop
 Version:	20060517
 Release:	1
@@ -16,6 +17,12 @@ dnstop is a libpcap application (ala tcpdump) that displays various
 tables of DNS traffic on your network, including tables of source and
 destination IP addresses, query types, top level domains and second
 level domains.
+
+%description -l pl
+dnstop to aplikacja oparta na libpcap (podobnie jak tcpdump)
+wy¶wietlaj±ca zestawienia ruchu DNS w sieci wraz z tabelami ¼ród³owych
+i docelowych adresów IP, rodzajów zapytañ, domen g³ównych i drugiego
+poziomu.
 
 %prep
 %setup -q 

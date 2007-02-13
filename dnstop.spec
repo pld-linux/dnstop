@@ -1,5 +1,5 @@
 Summary:	Display various tables of DNS traffic on your network
-Summary(pl.UTF-8):   Wyświetlanie różnych zestawień ruchu DNS w sieci
+Summary(pl.UTF-8):	Wyświetlanie różnych zestawień ruchu DNS w sieci
 Name:		dnstop
 Version:	20070105
 Release:	1

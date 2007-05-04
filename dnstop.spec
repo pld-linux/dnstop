@@ -1,12 +1,12 @@
 Summary:	Display various tables of DNS traffic on your network
 Summary(pl.UTF-8):	Wyświetlanie różnych zestawień ruchu DNS w sieci
 Name:		dnstop
-Version:	20070105
+Version:	20070307
 Release:	1
 License:	BSD-like
 Group:		Applications/Networking
 Source0:	http://dns.measurement-factory.com/tools/dnstop/src/%{name}-%{version}.tar.gz
-# Source0-md5:	8eadc892cda6365786d0ea94e5de7631
+# Source0-md5:	ea78dc713f642d62596efe94fc43cc43
 URL:		http://dns.measurement-factory.com/tools/dnstop/
 BuildRequires:	libpcap-devel
 BuildRequires:  ncurses-devel
@@ -30,7 +30,8 @@ poziomu.
 %build
 %{__make} \
 	CC="%{__cc}" \
-	CFLAGS="%{rpmcflags} -I/usr/include/ncurses"
+	CFLAGS="%{rpmcflags} -I/usr/include/ncurses \
+		-DUSE_IPV6=1"
 
 %install
 rm -rf $RPM_BUILD_ROOT

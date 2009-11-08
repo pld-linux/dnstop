@@ -1,12 +1,12 @@
 Summary:	Display various tables of DNS traffic on your network
 Summary(pl.UTF-8):	Wyświetlanie różnych zestawień ruchu DNS w sieci
 Name:		dnstop
-Version:	20080502
+Version:	20090128
 Release:	1
 License:	BSD-like
 Group:		Applications/Networking
 Source0:	http://dns.measurement-factory.com/tools/dnstop/src/%{name}-%{version}.tar.gz
-# Source0-md5:	67f24e8fe47a6b8387b863d19224f20c
+# Source0-md5:	827a0d2020b157b925411dd30b6feff3
 URL:		http://dns.measurement-factory.com/tools/dnstop/
 BuildRequires:	libpcap-devel
 BuildRequires:  ncurses-devel

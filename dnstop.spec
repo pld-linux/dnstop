@@ -4,12 +4,12 @@ Name:		dnstop
 Version:	20090128
 Release:	2
 License:	BSD-like
-Group:		Applications/Networking
+Group:		Networking/Utilities
 Source0:	http://dns.measurement-factory.com/tools/dnstop/src/%{name}-%{version}.tar.gz
 # Source0-md5:	827a0d2020b157b925411dd30b6feff3
 URL:		http://dns.measurement-factory.com/tools/dnstop/
 BuildRequires:	libpcap-devel
-BuildRequires:  ncurses-devel
+BuildRequires:	ncurses-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description

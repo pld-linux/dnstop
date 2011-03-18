@@ -31,7 +31,7 @@ poziomu.
 %configure
 %{__make} \
 	CC="%{__cc}" \
-	CFLAGS="%{rpmcflags} -I/usr/include/ncurses \
+	CFLAGS="%{rpmcppflags} %{rpmcflags} -I/usr/include/ncurses \
 		-DUSE_IPV6=1"
 
 %install

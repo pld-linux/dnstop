@@ -2,7 +2,7 @@ Summary:	Display various tables of DNS traffic on your network
 Summary(pl.UTF-8):	Wyświetlanie różnych zestawień ruchu DNS w sieci
 Name:		dnstop
 Version:	20110502
-Release:	2
+Release:	3
 License:	BSD-like
 Group:		Networking/Utilities
 Source0:	http://dns.measurement-factory.com/tools/dnstop/src/%{name}-%{version}.tar.gz
